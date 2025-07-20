@@ -1,0 +1,294 @@
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ body {
+    max-width: 1440px;
+    margin: 0 auto;
+ }
+
+ /* Header section */
+ .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #203A43;
+    align-items: center;
+    border: 1px solid grey;
+ }
+ .top-text {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    color: white;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+ }
+ .nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    gap: 20px;
+ }
+ .nav-bar li {
+    list-style: none;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+ }
+ .nav-bar a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: bolder;
+ }
+ .nav-bar img {
+    width: 1.125em;
+    height: 1.125em;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+ }
+
+/* Main section */
+
+/* Section-1 */
+.section-1 {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 40px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.section-1-text {
+    padding: 5px;
+}
+
+.section-1-text h1 {
+    font-size: 3rem;
+
+}
+.section-1-text p {
+    font-size: 1.155rem;
+    text-align: justify;
+}
+.section-1-text button {
+    font-size: 1.025rem;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.section-1 img {
+    width: 440px;
+    height:414px;
+}
+
+/* Text-logo section */
+
+.text-logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    justify-items: center;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Header Responsive */
+ @media screen and (max-width: 576px) {
+
+    /* For Header Section */
+
+  .header {
+    grid-template-columns: 1fr;
+  }
+
+  .top-text {
+    text-align: center;
+  }
+
+  .nav-bar ul {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;      
+    justify-content: center;  
+    padding: 0;
+    margin: 0 auto;
+    gap: 10px;                
+  }
+  .nav-bar li {
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+  }
+
+/* Main section-1 */
+  .section-1 {
+    grid-template-columns: 1fr;
+    gap: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 40px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.section-1-text {
+    padding: 5px;
+}
+
+.section-1-text h1 {
+    font-size: 2rem;
+
+}
+.section-1-text p {
+    font-size: 1rem;
+    text-align: justify;
+}
+.section-1-text button {
+    font-size: 1.12rem;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.section-1 img {
+    width: 200px;
+    height:190px;
+}
+
+  .section-1-camera {
+    grid-row: 1;
+  }
+  .section-1-text {
+    grid-row: 2;
+  }
+
+/* Text-logo section */
+.text-logo {
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium Device */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    /* For Header Section */
+
+  .header {
+    grid-template-columns: 1fr;
+  }
+
+  .top-text {
+    text-align: center;
+  }
+
+  .nav-bar ul {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;      
+    justify-content: center;  
+    padding: 0;
+    margin: 0 auto;
+    gap: 10px;                
+  }
+  .nav-bar li {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+
+  /* Main section-1 */
+  .section-1 {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 40px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.section-1-text {
+    padding: 5px;
+}
+
+.section-1-text h1 {
+    font-size: 2rem;
+
+}
+.section-1-text p {
+    font-size: 1rem;
+    text-align: justify;
+}
+.section-1-text button {
+    font-size: 1.12rem;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.section-1 img {
+    width: 200px;
+    height:190px;
+}
+
+/* Text-logo section */
+.text-logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    justify-items: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+}
